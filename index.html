@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coloretta Support</title>
+  <style>
+    :root {
+      --bg: #fffaf2;
+      --card: #ffffff;
+      --text: #1f2933;
+      --muted: #6b7280;
+      --accent: #ff6b6b;
+      --accent-soft: #ffe3e3;
+      --border: #eadfd2;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: radial-gradient(circle at top, #fff3dc 0%, var(--bg) 42%, #fdf7ee 100%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .page {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 48px 20px 64px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 56px 24px 42px;
+      border-radius: 28px;
+      background: linear-gradient(135deg, #ffffff 0%, #fff4ee 100%);
+      border: 1px solid var(--border);
+      box-shadow: 0 18px 45px rgba(80, 55, 30, 0.08);
+    }
+
+    .icon {
+      width: 82px;
+      height: 82px;
+      border-radius: 24px;
+      margin: 0 auto 22px;
+      display: grid;
+      place-items: center;
+      font-size: 42px;
+      background: var(--accent-soft);
+      color: var(--accent);
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(34px, 5vw, 54px);
+      line-height: 1.05;
+      letter-spacing: -0.04em;
+    }
+
+    .subtitle {
+      max-width: 640px;
+      margin: 0 auto;
+      font-size: 18px;
+      color: var(--muted);
+    }
+
+    .section {
+      margin-top: 28px;
+      padding: 30px;
+      border-radius: 24px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      box-shadow: 0 10px 28px rgba(80, 55, 30, 0.05);
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 26px;
+      letter-spacing: -0.02em;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    ul {
+      margin: 10px 0 0;
+      padding-left: 22px;
+    }
+
+    li {
+      margin: 8px 0;
+    }
+
+    .contact-box {
+      margin-top: 18px;
+      padding: 18px;
+      border-radius: 18px;
+      background: #fff7f7;
+      border: 1px solid #ffd6d6;
+    }
+
+    a {
+      color: #e54b4b;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      margin-top: 34px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 640px) {
+      .page {
+        padding: 28px 14px 46px;
+      }
+
+      .hero {
+        padding: 40px 18px 32px;
+      }
+
+      .section {
+        padding: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <div class="icon">🎨</div>
+      <h1>Coloretta Support</h1>
+      <p class="subtitle">A calm and creative coloring experience with beautiful illustrations, relaxing tools, and colorful palettes.</p>
+    </section>
+
+    <section class="section">
+      <h2>Need Help?</h2>
+      <p>If you have questions, feedback, or need support with the app, please contact us by email.</p>
+      <div class="contact-box">
+        <strong>Email:</strong> <a href="mailto:sasha.orlova.1998n@gmail.com">sasha.orlova.1998n@gmail.com</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>About the App</h2>
+      <p>Coloretta lets you relax by coloring detailed illustrations directly on your device. Choose artwork from different categories, use brush and fill tools, and create your own peaceful color combinations.</p>
+      <ul>
+        <li>Color illustrations with brush and fill tools</li>
+        <li>Explore categories such as nature, animals, cities, travel, food, and lifestyle</li>
+        <li>Use a simple color palette for relaxing creative sessions</li>
+        <li>Save your progress and continue coloring later</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Frequently Asked Questions</h2>
+      <p><strong>Can I use the app offline?</strong><br />Some features may be available offline, but downloading new content or updates may require an internet connection.</p>
+      <p><strong>How do I restore my progress?</strong><br />Open the app and check your saved artworks or studio/library section. If something is missing, contact support.</p>
+      <p><strong>How can I report a problem?</strong><br />Send us an email with your device model, iOS version, app version, and a short description of the issue.</p>
+    </section>
+
+    <section class="section">
+      <h2>Privacy</h2>
+      <p>Your privacy matters. For questions about privacy or data handling, contact us at the support email above.</p>
+    </section>
+
+    <footer class="footer">
+      <p>© 2026 Orlova Alexandra. All rights reserved.</p>
+    </footer>
+  </main>
+</body>
+</html>
